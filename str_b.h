@@ -18,4 +18,4 @@ std::string toLowerCase(std::string input)
 			input[i] = input[i] + 32;
 	}
 	return input;
-
+}
