@@ -49,7 +49,8 @@ int main()
         case 4:
         {
             cout << "Vvedite stroku\n";
-            cin >> input;
+            cin.ignore();
+            getline(cin, input);
             if (isPalindrome(input))
                 cout << "stroka - palindrom\n";
             else
